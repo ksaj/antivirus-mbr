@@ -9,7 +9,7 @@ The source code is written in Assembler, and is heavily documented so it should 
 
 ---
 
-###PC SCAVENGER Anti-Virus Master Boot Record
+#PC SCAVENGER Anti-Virus Master Boot Record
 
 
 (c)1993 Karsten Johansson, PC Scavenger   INET: ksaj@pcsav.com
