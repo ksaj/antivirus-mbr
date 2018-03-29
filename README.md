@@ -6,7 +6,9 @@ I wrote this back in 1993. Retro gaming and whatnot is becoming popular under Li
 
 Here is the original README.TXT that explains how it works. It has been modified for markdown language since the original formatting wreaks havok with legibility on github, but otherwise is exactly as written back then. Note that the email address is no longer, so don't bother writing to it. 
 
-I've since lost the source code for the dropper program, so I've included the DEBUG script that I originally generated for it. It should be trivial to modify it for any other hex2bin type programs. Essentially it spells out all the bytes needed to recreate the original binary file.
+I've since lost the source code for the dropper program, so I've included the DEBUG script that I originally generated for it. It should be trivial to modify it for any other hex2bin type programs. Essentially it spells out all the bytes needed to recreate the original binary file. 
+
+**IMPORTANT:** the dropper also copies the original partition table. If you copy the PCSCAV mbr you either need to use the dropper program, or edit the partition table yoursrlf. If you don't, the disk or disk image will no longer boot!
 
 The source code is heavily documented so it should be fairly trivial to figure out how it works.
 
