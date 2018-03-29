@@ -33,19 +33,19 @@ payment.
 ## What are the signs PC Scavenger looks for?
 
 
-1.)  Partition Table validity
+1.  Partition Table validity
 
 Some viruses alter the partition table.  PC Scavenger will warn you of an invalid partition table.
 
-2.)  System memory drop
+2.  System memory drop
 
 MBR viruses usually lower the amount of memory available for system use.
 
-3.)  Interrupt 13h location
+3.  Interrupt 13h location
 
 If a virus was written to act as a TSR, it must "trap" an interrupt so it can be executed later.  Prior to booting, the only interrupt useful for this is Interrupt 13h. (Int 21h is the other common interrupt for viruses to trap, but at boot time, it is non-existant, and therefore not a threat.)
 
-4.)  End of Boot Sector Marker
+4.  End of Boot Sector Marker
 
 Most Boot sector viruses will overwrite this marker. If it isn't there, that is a very suspicious thing indeed!  In this case, PC Scavenger will not give you the "Boot Anyway?" prompt...it will just hang the system with an "OS Error". Use the rescue diskette to repair the damage.
 
@@ -80,12 +80,11 @@ Write protect the rescue diskette as soon as PC Scavenger is installed on your s
 
 ## What to do:
 
-1.)  Don't panic!  This is easy.
-2.)  Boot from the emergency diskette.
-3.)  Type "SYS C:" to write a new boot sector
-4.)  Type "FDISK/MBR" to write a fresh MBR
-5.)  Type "PCSCAV", and choose (I)nstall to re-install
-     PC Scavenger on the system
+1.  Don't panic!  This is easy.
+2.  Boot from the emergency diskette.
+3.  Type "SYS C:" to write a new boot sector
+4.  Type "FDISK/MBR" to write a fresh MBR
+5.  Type "PCSCAV", and choose (I)nstall to re-install PC Scavenger on the system
 
 It's as simple as that.  Your system will now be clean again, and safe to reboot.
 
