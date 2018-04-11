@@ -2,7 +2,7 @@
 
 Antivirus boot sector for MSDOS (including Linux emulators and VMs). The original DOS boot record was pretty lame and filled with junk that didn't really do anything. I removed that junk and replaced it with code that ensures the mbr is legit, and that a virus hasn't loaded before it got a chance to load. It does a number of key tests to make sure things are good before loading DOS. As simple as this excercise was, I never could figure why this wasn't already and always the default behaviour.
 
-I wrote this back in 1993. Retro gaming and whatnot is becoming popular under Linux, and especially on Raspberry Pi, which prompted me to ressurrect this code in the likelihood that sooner or later people will start dusting off the old PC virus collections and playing around with them again. It also might be useful for folks learning a86 assembly language, or wishing to learn how the boot process worked back in the DOS and early Windows days.
+I wrote this back in 1993. Retro gaming and whatnot is becoming popular under Linux, and especially on Raspberry Pi, which prompted me to ressurrect this code in the likelihood that sooner or later people will start dusting off the old PC virus collections and playing around with them again. It would suck if IoT goes down because "YOUR PC IS NOW STONED." It also might be useful for folks learning a86 assembly language, or wishing to learn how the boot process worked back in the DOS and early Windows days.
 
 Here is the original README.TXT that explains how it works. It has been modified for markdown language since the original formatting wreaks havok with legibility on github, but otherwise is exactly as written back then. Note that the email address is no longer, so don't bother writing to it. 
 
